@@ -1,7 +1,7 @@
 {
-  "name": "podcastXC",
+  "name": "@taisan11/podcastxc",
   "version": "0.1.0",
-  "exports": "./mod.ts",
+  "exports": "./src/mod.ts",
   "tasks": {
     "dev": "deno test --watch mod.ts"
   },
@@ -9,5 +9,8 @@
   "imports": {
     "@shun-shobon/littlexml": "npm:@shun-shobon/littlexml@^0.6.2",
     "@std/assert": "jsr:@std/assert@1"
+  },
+  "publish": {
+    "exclude":[]
   }
 }
